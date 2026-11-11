@@ -1,0 +1,51 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+  background: #f7f2ea;
+  color: #3b2a20;
+  line-height: 1.6;
+}
+
+.hero {
+  padding: 96px 24px;
+  text-align: center;
+  background: #4a3426;
+  color: #fff8ef;
+}
+
+.eyebrow { letter-spacing: 4px; font-size: 13px; opacity: 0.7; }
+.hero h1 { font-size: 48px; margin: 8px 0; }
+.lead { font-size: 18px; opacity: 0.9; }
+
+#menuBtn {
+  margin-top: 28px;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 999px;
+  background: #e0a96d;
+  color: #3b2a20;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.menu { max-width: 480px; margin: 48px auto; padding: 0 24px; }
+.menu h2 { margin-bottom: 16px; }
+.menu li {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 12px 0;
+  border-bottom: 1px dashed #c9b8a6;
+}
+.hidden { display: none; }
+
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  padding: 48px 24px;
+  text-align: center;
+}
+
+footer { text-align: center; padding: 24px; font-size: 13px; opacity: 0.6; }
